@@ -43,23 +43,31 @@
 
 #Linear search      >>>>>>>>>>>>>>>>>>>>>>>>
 
-arr= [10,20,30,40,50]
+# arr= [10,20,30,40,50]
 # target=30  it's show Element Found
-target = 80  #Not found
+# target = 80  #Not found
 
-found = False 
-for num in arr:
-    if num ==target:
-        found =True
-        break
-if found:
-    print("Element Found")
+# found = False 
+# for num in arr:
+#     if num ==target:
+#         found =True
+#         break
+# if found:
+#     print("Element Found")
+# else:
+#     print("Not Founded")
+
+
+
+
+
+
+
+# check palindrome number 
+
+
+arr = [1,2,3,2,1]
+if arr == arr[::-1]:
+    print("Palindrome")
 else:
-    print("Not Founded")
-
-
-
-
-
-
-
+    print("Not Palindrome")
