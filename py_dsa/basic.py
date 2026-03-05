@@ -10,20 +10,36 @@
 
 
 
- #EVEN & ODD FIND  >>>>>>>>>>>
+ #EVEN & ODD FIND  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-arr=[1,2,3,4,5,6,7]
+# arr=[1,2,3,4,5,6,7]
 
-even=0
-odd=0
+# even=0
+# odd=0
 
+# for num in arr:
+#     if num % 2 ==0:
+#         even += 1
+#     else:
+#         odd+=1
+# print("EVEN No. :",even)
+# print("ODD No. :",odd)
+
+
+
+
+# SUM OF ALL ELEMEMTS >>>>>>>>>>>>>>>>>>>>
+
+arr = [5,9,20,600]
+total=0
 for num in arr:
-    if num % 2 ==0:
-        even += 1
-    else:
-        odd+=1
-print("EVEN No. :",even)
-print("ODD No. :",odd)
+    total += num 
+print("Sum:",total)
+
+
+
+
+
 
 
 
