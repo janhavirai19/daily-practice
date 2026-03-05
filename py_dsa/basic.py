@@ -30,13 +30,32 @@
 
 # SUM OF ALL ELEMEMTS >>>>>>>>>>>>>>>>>>>>
 
-arr = [5,9,20,600]
-total=0
+# arr = [5,9,20,600]
+# total=0
+# for num in arr:
+#     total += num 
+# print("Sum:",total)
+
+
+
+
+
+
+#Linear search      >>>>>>>>>>>>>>>>>>>>>>>>
+
+arr= [10,20,30,40,50]
+# target=30  it's show Element Found
+target = 80  #Not found
+
+found = False 
 for num in arr:
-    total += num 
-print("Sum:",total)
-
-
+    if num ==target:
+        found =True
+        break
+if found:
+    print("Element Found")
+else:
+    print("Not Founded")
 
 
 
