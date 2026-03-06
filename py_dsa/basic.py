@@ -66,8 +66,30 @@
 # check palindrome number 
 
 
-arr = [1,2,3,2,1]
-if arr == arr[::-1]:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
+# arr = [1,2,3,2,1]
+# if arr == arr[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+
+
+
+#POSITIVE AND NIGATIVE NUMBERRRRRRRRRRRR  >>>>>>>>>>>
+
+
+
+arr=[-5,10,-3,7,0,-1]
+positive=0
+negative=0
+for num in arr:
+    if num > 0:
+        positive += 1
+    elif num < 0:
+        negative += 1
+print("Postive: ",positive)
+print("Negative : ",negative)
+
+
+
+
+
