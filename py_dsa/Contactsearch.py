@@ -34,11 +34,11 @@ else:
     print(" Not found")
     for c in contacts:
         if name[0] == c[0]:
-            print("🔎 Maybe:", c, "-", contacts[c])
+            print(" Maybe:", c, "-", contacts[c])
 if input("Add new contact? (y/n): ").lower() == "y":
     n = input("Name: ").capitalize()
     num = int(input("Number: "))
     contacts[n] = num
-print("\n📋 Contacts:")
+print("\n Contacts:")
 for k in sorted(contacts):
     print(k, ":", contacts[k])
