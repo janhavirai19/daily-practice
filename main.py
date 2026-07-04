@@ -11,4 +11,3 @@ print(df.loc[df["Total"].idxmax()])
 print(df[["Python","Java","DSA"]].mean())
 print(df)
 
-# # head, columns
